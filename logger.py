@@ -58,7 +58,7 @@ def delete_data():
             if line_number != deleted_line:
                 file.write(line)
         file.truncate()
-    print('Изменения успешно удалены!')
+    print('Данные успешно удалены!')
 
 def delete_data():
     number = int(input('Введите номер данных: '))
@@ -69,4 +69,4 @@ def delete_data():
             if line_number != range(number, number + 4):
                 file.write(line)
         file.truncate()    
-    print('Изменения успешно удалены!')
+    print('Данные успешно удалены!')
